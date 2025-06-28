@@ -1,13 +1,9 @@
-# FastAPI Server
+# Minimal working set for FastAPI + Real-ESRGAN
 fastapi==0.103.2
 uvicorn==0.23.2
-
-# Core AI / Image Processing
 torch==2.0.1
 torchvision==0.15.2
 numpy==1.26.4
 Pillow==9.5.0
-
-# Real-ESRGAN
 realesrgan==0.3.0
 basicsr==1.4.2
