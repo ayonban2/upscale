@@ -1,19 +1,13 @@
-# FastAPI server
-fastapi>=0.100.0
-uvicorn>=0.23.0
+# FastAPI Server
+fastapi==0.103.2
+uvicorn==0.23.2
 
-# AI & Enhancement
+# Core AI / Image Processing
 torch==2.0.1
 torchvision==0.15.2
 numpy==1.26.4
-Pillow>=9.5.0
-opencv-python-headless>=4.7.0
+Pillow==9.5.0
 
-# Real-ESRGAN ecosystem
+# Real-ESRGAN
 realesrgan==0.3.0
-basicsr>=1.4.2
-gfpgan>=1.3.8
-facexlib>=0.2.5
-
-# Other
-gdown>=4.7.1
+basicsr==1.4.2
