@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1A46YHExOOkGVNv-ZzOPH0kkjAZwIs3nu
 """
 
-!pip uninstall -y numpy
-!pip install numpy==1.26.4 basicsr realesrgan torch==2.0.1 torchvision==0.15.2
+#!pip uninstall -y numpy
+#!pip install numpy==1.26.4 basicsr realesrgan torch==2.0.1 torchvision==0.15.2
 
 import torch
 import numpy as np
