@@ -1,20 +1,9 @@
-# Prevent copying cache, virtualenvs, git, Jupyter, models
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.git/
-*.gitignore
-*.DS_Store
-venv/
-env/
-.ipynb_checkpoints/
-*.ipynb
-*.zip
-*.tar
-*.rar
-datasets/
 *.pt
-
-# 🚫 Exclude the giant model folder
-models/
+*.pth
+*.h5
+temp/
+output/
+models/RealESRGAN_x4plus.pth
+.git/
